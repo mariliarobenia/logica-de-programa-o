@@ -1,0 +1,86 @@
+aula 02
+
+o que são dados? 
+dados são informações que podem ser armazenadas, organizadas e utilizadas por um programa para realizar alguma tarefa.
+
+tipos de dados:
+números: ex. idade
+textos: nome de pessoa
+letras: 
+imagens
+ou qualquer informação que possa ser processada pelo computador.
+
+variáveis: 
+
+uma variável é o espaço na memória do computador usado para armazenar dados que podem ser alterados duarnte a execuçao de um programa.
+ela funciona como uma caixa com um nome, onde guardamos informações para usar depois.
+
+
+PORTUGOL
+
+ cadeia nome = "Lucas" 
+ inteiro idade = 17  
+ real altura = 1.75 
+ caracter genero = 'M'
+ logico programador = verdadeiro 
+
+    escreva("informe seu Nome: ")
+    leia(nome)
+    escreva("informe sua Idade: ")
+    leia(idade)
+    escreva("informe sua Altura: ")
+    leia(altura)
+    escreva("informe seu Gênero: ")
+    leia(genero)
+    escreva("informe se é Programador: ")
+    leia(programador)
+
+
+regras de nomeação
+
+deve começar com letra
+os prox podem sem letras ou numeros
+não pode utilizar simbolos especiais 
+nao pode ter espaço em branco
+nao pode ter acento
+nao pode usar palavras reservadas. 
+
+operadores 
+operadores são simbolos que instruem o computador a realizar operações especificas com variaves e valores.
+
+aritimeticos +-*/%
+
+relacionais 
+< > <= >= == !=
+
+lógicos
+e 
+ou
+nao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
