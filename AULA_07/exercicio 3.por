@@ -1,20 +1,24 @@
 programa {
-  //tipos de função
-    // - Com parâmetro e sem retorno
+  // Sistema de Notas (sem função)
   funcao inicio() {
+    cadeia nome
+    real media, faltas
 
-    classificacaoAlunos()
+    escreva("Média: ")
+    leia(media)
+    escreva("Faltas: ")
+    leia(faltas)
+
+    escreva("\n--- Resultado ---\n")
     
-  }
 
-  funcao classificacaoalunos(real media, inteiro faltas){
-    se (media >= 9.5 e faltas <= 10) {
-      escreva("✅ APROVADO COM LOUVOR.\n")
-    } senao se (media >= 7 e faltas <= 10) {
-      escreva("✅ APROVADO.\n") 
-    } senao {
-      escreva("REPROVADO\n") 
+    se (media >= 9.5 e faltas < 10) {
+      escreva("Situação: APROVADO COM LOUVOR\n")
+    } senao se (media >= 7 e faltas < 10) {
+      escreva("Situação: APROVADO\n")
+    }
+    senao {
+      escreva("Situação: Reprovado\n")
     }
   }
-  
 }
